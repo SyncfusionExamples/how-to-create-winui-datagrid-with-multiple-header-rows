@@ -1,8 +1,8 @@
-# How to create WinUI DataGrid (SfDataGrid) with multiple header rows (Stacked Header Rows)?
+# How to create WinUI DataGrid with multiple header rows (Stacked Header Rows)?
 
 # About the sample
 
-This example illustrates how to create SfDataGrid with multiple header rows using StackedHeaderRows.
+This example illustrates how to create DataGrid with multiple header rows using StackedHeaderRows.
 
 [WinUI DataGrid](https://www.syncfusion.com/winui-controls/datagrid) (SfDataGrid) supports to add additional unbound header rows using [StackedHeaderRows](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Grids.SfGridBase.html#Syncfusion_UI_Xaml_Grids_SfGridBase_StackedHeaderRows). This can be used to add multiple header rows for the SfDataGrid and to group one or more columns under each stacked header.
 Each [StackedHeaderRow](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Grids.StackedHeaderRow.html) contains [StackedColumns](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Grids.StackedColumns.html) where each [StackedColumn](https://help.syncfusion.com/cr/winui/Syncfusion.UI.Xaml.Grids.StackedColumn.html) contains a number of child columns. You can set the text displayed in the stacked column by using `StackedColumn.HeaderText` property.
@@ -58,8 +58,6 @@ public int OrderID
         this.OnPropertyChanged("OrderID");
     }
 }
-
-
 
 /// <summary>
 /// Gets or sets the Product.
@@ -230,10 +228,9 @@ The appearance of stacked header can be customized by using the keys `Syncfusion
 
 ```
 
-
 ![SfDataGrid stacked header rows styling](Images/StackedHeader_3.png)
 
-Take a moment to peruse the [WinUI DataGrid – Stacked Header Row](https://help.syncfusion.com/winui/datagrid/stacked-headers) documentation, where you can find about stacked header rows with code examples.
+Take a moment to peruse the [WinUI DataGrid - Stacked Headers](https://help.syncfusion.com/winui/datagrid/stacked-headers) documentation, where you can find about stacked headers with code examples.
 
 ## Requirements to run the demo
 
